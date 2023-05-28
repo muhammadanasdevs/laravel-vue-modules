@@ -4,7 +4,7 @@ namespace Muhammadanasdevs\Modules\Commands;
 
 use Illuminate\Console\Command;
 use Muhammadanasdevs\Modules\Json;
-use Nwidart\Modules\Process\Installer;
+use Muhammadanasdevs\Modules\Process\Installer;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
