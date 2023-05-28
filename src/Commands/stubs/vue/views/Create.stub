@@ -1,0 +1,13 @@
+<template>
+    <h1> Hello, view.Create with Laravel </h1>
+</template>
+
+<script>
+export default {
+    name: "Create.vue"
+}
+</script>
+
+<style scoped>
+
+</style>

@@ -1,0 +1,13 @@
+<template>
+<h>$STUDLY_NAME$ Modules</h>
+</template>
+
+<script>
+export default {
+    name: "$STUDLY_NAME$"
+}
+</script>
+
+<style scoped>
+
+</style>

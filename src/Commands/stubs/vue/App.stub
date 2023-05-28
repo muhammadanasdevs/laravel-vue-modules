@@ -1,0 +1,35 @@
+<template>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <router-link class="navbar-brand" :to="{name :'home' }">Home </router-link>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <router-link class="text-white" :to="{name : 'create' }">create</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="text-white" :to="{name : 'user' }">user</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="text-white" :to="{name : 'page' }">page</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="text-white" :to="{name : 'modulemanger' }">modulemanger</router-link>
+            </li>
+        </ul>
+    </nav>
+
+    <router-view></router-view>
+
+</template>
+<script>
+import { mapGetters } from 'vuex'
+export default {
+    name: "App.vue",
+    created() {
+        console.log(this.$store)
+    },
+    computed : {
+        ...mapGetters(['getModuleName'])
+    }
+}
+</script>

@@ -1,0 +1,20 @@
+async function importStores() {
+    const modulesContext = await import.meta.glob('../../Modules/*/Resources/assets/js/store.js');
+
+    const modules = Object.entries(modulesContext)
+        .map((module) => ({
+            module: module[0]
+        }));
+
+    const routes = {};
+    for (const { module } of modules) {
+        const moduleName = module.match(/\/Modules\/(.+?)\/Resources/)[1];
+        routes[moduleName] = module;
+    }
+
+    return routes;
+}
+
+const stores = await importStores();
+
+export default stores;

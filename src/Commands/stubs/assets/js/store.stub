@@ -1,0 +1,11 @@
+
+export default {
+    state:{
+        accountModule : "Is a $STUDLY_NAME$ modules.."
+    },
+    getters : {
+        getModuleName(state){
+            return state.accountModule
+        }
+    }
+}

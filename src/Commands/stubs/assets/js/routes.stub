@@ -1,0 +1,11 @@
+
+import $LOWER_NAME$ from './views/Main.vue'
+
+const routes = [
+    {
+        name: '$LOWER_NAME$',
+        path: '/$LOWER_NAME$',
+        component: $LOWER_NAME$
+    }
+];
+export default routes;

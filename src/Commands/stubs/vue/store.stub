@@ -1,0 +1,26 @@
+import Vuex from 'vuex'
+
+//import modules stores
+var  stores = [];
+var modulesStores = []
+import  modules  from "./modules_stores";
+
+for (const  moduleStore  of Object.values(modules)) {
+    const ModuleStore = await import(moduleStore);
+    modulesStores.push(ModuleStore.default)
+}
+
+stores = stores.concat(
+    ...modulesStores
+);
+
+
+export default new Vuex.Store({
+
+    modules: {
+        stores
+    },
+    state:{
+        name : "test"
+    }
+})
