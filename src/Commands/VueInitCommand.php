@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Muhammadanasdevs\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Generators\VueGenerator;
+use Muhammadanasdevs\Modules\Generators\VueGenerator;
 
 
 class VueInitCommand extends Command
