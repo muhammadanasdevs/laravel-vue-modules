@@ -1,11 +1,11 @@
 <?php
 
-namespace Nwidart\Modules\Generators;
+namespace Muhammadanasdevs\Modules\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
-use Nwidart\Modules\FileRepository;
-use Nwidart\Modules\Support\Stub;
+use Muhammadanasdevs\Modules\FileRepository;
+use Muhammadanasdevs\Modules\Support\Stub;
 
 class VueGenerator extends Generator
 {
