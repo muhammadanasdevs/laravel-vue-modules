@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Modules\Exceptions;
+namespace Muhammadanasdevs\Modules\Exceptions;
 
 class InvalidAssetPath extends \Exception
 {
