@@ -1,10 +1,10 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Muhammadanasdevs\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Module;
-use Nwidart\Modules\Traits\ModuleCommandTrait;
+use Muhammadanasdevs\Modules\Module;
+use Muhammadanasdevs\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class UpdateCommand extends Command
