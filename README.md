@@ -61,6 +61,7 @@ You'll find installation instructions and full documentation on [https://docs.la
     npm run dev
     npm install vue vue-router vue-axios --save
     npm i @vitejs/plugin-vue
+    npm install vuex --save
     php artisan vue-init
 ```
 and this add into web.php
