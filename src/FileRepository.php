@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Modules;
+namespace Muhammadanasdevs\Modules;
 
 use Countable;
 use Illuminate\Cache\CacheManager;
@@ -10,11 +10,11 @@ use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Nwidart\Modules\Contracts\RepositoryInterface;
-use Nwidart\Modules\Exceptions\InvalidAssetPath;
-use Nwidart\Modules\Exceptions\ModuleNotFoundException;
-use Nwidart\Modules\Process\Installer;
-use Nwidart\Modules\Process\Updater;
+use Muhammadanasdevs\Modules\Contracts\RepositoryInterface;
+use Muhammadanasdevs\Modules\Exceptions\InvalidAssetPath;
+use Muhammadanasdevs\Modules\Exceptions\ModuleNotFoundException;
+use Muhammadanasdevs\Modules\Process\Installer;
+use Muhammadanasdevs\Modules\Process\Updater;
 
 abstract class FileRepository implements RepositoryInterface, Countable
 {
