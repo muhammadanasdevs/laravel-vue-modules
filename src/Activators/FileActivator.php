@@ -1,14 +1,14 @@
 <?php
 
-namespace Nwidart\Modules\Activators;
+namespace Muhammadanasdevs\Modules\Activators;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
-use Nwidart\Modules\Contracts\ActivatorInterface;
-use Nwidart\Modules\Module;
+use Muhammadanasdevs\Modules\Contracts\ActivatorInterface;
+use Muhammadanasdevs\Modules\Module;
 
 class FileActivator implements ActivatorInterface
 {
