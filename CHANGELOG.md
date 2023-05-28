@@ -56,7 +56,7 @@ All Notable changes to `laravel-vue-modules` will be documented in this file.
 
 ### Added 
 
-- Added option to publish stubs for modules `php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider" --tag="stubs"`
+- Added option to publish stubs for modules `php artisan vendor:publish --provider="Muhammadanasdevs\Modules\LaravelModulesServiceProvider" --tag="stubs"`
 
 ### Changed
 
