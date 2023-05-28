@@ -59,6 +59,8 @@ You'll find installation instructions and full documentation on [https://docs.la
  I only added vue router:
 ``` npm install
     npm run dev
+    npm install vue vue-router vue-axios --save
+    npm i @vitejs/plugin-vue
     php artisan vue-init
 ```
 and this add into web.php
@@ -77,6 +79,21 @@ and this add into welcome.blade.php
     @vite('resources/js/app.js')
 </body>
 </html>
+```
+and this add into vite.config.js
+```
+import vue from "@vitejs/plugin-vue";
+
+```
+```
+plugins: [
+        vue(),
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+            refresh: true,
+        }),
+    ],
+
 ```
 ## About Muhammadanasdevs
 
