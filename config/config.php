@@ -1,7 +1,7 @@
 <?php
 
-use Nwidart\Modules\Activators\FileActivator;
-use Nwidart\Modules\Commands;
+use Muhammadanasdevs\Modules\Activators\FileActivator;
+use Muhammadanasdevs\Modules\Commands;
 
 return [
 
@@ -234,7 +234,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'muhammadanasdevs',
         'author' => [
             'name' => 'Muhammad Anas',
             'email' => 'muhammadanasdevs@gmail.com',
