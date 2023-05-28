@@ -1,11 +1,11 @@
 <?php
 
-namespace Nwidart\Modules\Publishing;
+namespace Muhammadanasdevs\Modules\Publishing;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Contracts\PublisherInterface;
-use Nwidart\Modules\Contracts\RepositoryInterface;
-use Nwidart\Modules\Module;
+use Muhammadanasdevs\Modules\Contracts\PublisherInterface;
+use Muhammadanasdevs\Modules\Contracts\RepositoryInterface;
+use Muhammadanasdevs\Modules\Module;
 
 abstract class Publisher implements PublisherInterface
 {
