@@ -1,15 +1,15 @@
 <?php
 
-namespace Nwidart\Modules\Generators;
+namespace Muhammadanasdevs\Modules\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Nwidart\Modules\Contracts\ActivatorInterface;
-use Nwidart\Modules\FileRepository;
-use Nwidart\Modules\Support\Config\GenerateConfigReader;
-use Nwidart\Modules\Support\Stub;
+use Muhammadanasdevs\Modules\Contracts\ActivatorInterface;
+use Muhammadanasdevs\Modules\FileRepository;
+use Muhammadanasdevs\Modules\Support\Config\GenerateConfigReader;
+use Muhammadanasdevs\Modules\Support\Stub;
 
 class ModuleGenerator extends Generator
 {
