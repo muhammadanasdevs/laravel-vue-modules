@@ -1,10 +1,10 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Muhammadanasdevs\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Exceptions\FileAlreadyExistException;
-use Nwidart\Modules\Generators\FileGenerator;
+use Muhammadanasdevs\Modules\Exceptions\FileAlreadyExistException;
+use Muhammadanasdevs\Modules\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {
