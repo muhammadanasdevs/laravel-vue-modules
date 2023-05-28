@@ -57,8 +57,26 @@ You'll find installation instructions and full documentation on [https://docs.la
 
 ## Addition
  I only added vue router:
-``` bash
-php artisan vue-init
+``` npm install
+    npm run dev
+    php artisan vue-init
+```
+and this add into web.php
+``` Route::get('{any}', function () {
+    return view('welcome');
+})->where('any', '.*');
+```
+and this add into welcome.blade.php
+``` <!DOCTYPE html>
+<html>
+    <head>
+        @vite('resources/css/app.css')
+    </head>
+<body>
+    <div id="app"></div>
+    @vite('resources/js/app.js')
+</body>
+</html>
 ```
 ## About Muhammadanasdevs
 
