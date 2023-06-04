@@ -1,7 +1,7 @@
 # laravel-vue-modules
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](README.md)
-![GitHub all releases](https://img.shields.io/github/downloads/muhammadanasdevs/laravel-vue-modules/total)
+![GitHub all releases](https://img.shields.io/github/downloads/muhammadanasdevs/laravel-vue-modules/total?color=green&style=plastic)
 
 | **Laravel** | **laravel-modules** |
 |-------------|---------------------|
