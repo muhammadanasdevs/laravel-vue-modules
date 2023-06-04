@@ -60,13 +60,15 @@ You'll find installation instructions and full documentation on [https://docs.la
     npm install vuex --save
     php artisan vue-init
 ```
-and this add into web.php
-``` Route::get('{any}', function () {
+add this to web.php
+``` 
+Route::get('{any}', function () {
     return view('welcome');
 })->where('any', '.*');
 ```
-and this add into welcome.blade.php
-``` <!DOCTYPE html>
+Next, add below script to welcome.blade.php
+``` 
+<!DOCTYPE html>
 <html>
     <head>
         @vite('resources/css/app.css')
@@ -77,7 +79,7 @@ and this add into welcome.blade.php
 </body>
 </html>
 ```
-and this add into vite.config.js
+Finally, add this to your vite.config.js
 ```
 import vue from "@vitejs/plugin-vue";
 
