@@ -94,7 +94,7 @@ plugins: [
 ```
 ## About Muhammadanasdevs
 
-Muhammadanasdevs is a freelance web developer specialising on the Laravel framework. View all my packages [on my website](#), or visit [my website](#).
+Muhammadanasdevs is a freelance web developer specialising on the Laravel framework. View all my packages [on my website](#), or visit [my LinkedIn](https://www.linkedin.com/in/muhammad-anas-76158717b).
 
 
 ## License
